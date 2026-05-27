@@ -1,12 +1,15 @@
 DEADLINE:
-    cercare un dataset entro le 10:30am 
+    cercare un dataset entro le 10:30am
+    finire il progetto entro le 17:00pm
 
 ideas, brainstorming?
-    ho pensato di cercare un dataset che si tratti di giochi in generali. ho trovato dei open datasets su kaggle: 
-    volevo trattare di questi argomenti: 
+    Ho pensato di cercare un dataset relativo ai giochi in generale. Ho trovato alcuni dataset aperti su Kaggle: 
+    Volevo occuparmi di uno di questi argomenti: 
     no istg i wanted to do this :(- sport NBA - Quanti italiani giocano a basket e dove, e se in questi ultimi anni è cresciuto in vari posti
     nah too much math- gioco d'azzardo - quanto gli italiani spendono in slot, scommesse
     videogiochi YES - esports in italia sta crescendo? quante persone seguono e partecipano in italia rispetto ad altri paesi internazionali
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Domande che mi sono posto:
 videogiochi: esports in italia- sta crescendo? quante persone seguono e partecipano in italia rispetto ad altri paesi internazionali e soldi accumulati
@@ -49,6 +52,7 @@ installazioni di tutte le cose necessarie lib/ csv
     pip install pandas numpy matplotlib seaborn scikit-learn
     importato anche i 2 csv generical e historical esports data
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Contenuto file genericalesportsdata.csv:
     Game =Nome del gioco
@@ -66,5 +70,14 @@ Contenuo file historicalesportsdata.csv:
     Earnings =Soldi incassati in quel mese per quel gioco
     Players =Numero di giocatori in quel mese
     Tournaments =Numero di tornei in quel mese
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Analisi:
+    Quanti soldi hanno guadagnato gli esports ogni anno dal 2019 ad oggi? x
+    Durante il Covid (2020) i soldi e i tornei sono aumentati o diminuiti? x
+    Quale tipo di gioco (Genere come FPS, MOBA, Strategia) guadagna di più?
+    Quanti sono i fan degli esports in Italia oggi rispetto al periodo del Covid? x
+    Quali piattaforme usano gli italiani per guardare i tornei? x
 
 
