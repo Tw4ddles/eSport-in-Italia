@@ -10,6 +10,7 @@ ideas, brainstorming?
 
 Domande che mi sono posto:
 videogiochi: esports in italia- sta crescendo? quante persone seguono e partecipano in italia rispetto ad altri paesi internazionali e soldi accumulati
+
 Esports in Italia: 
 
     Dal Covid ad oggi:
@@ -40,3 +41,30 @@ Esports in Italia:
 
     Esports Italiano rispetto esports internazionale:
     E' ancora molto piccola rispetto ai paesi come Corea del Sud, USA ma la crescita è alto.
+
+
+ho creato il repository eSports_in_Italia 
+
+installazioni di tutte le cose necessarie lib/ csv 
+    pip install pandas numpy matplotlib seaborn scikit-learn
+    importato anche i 2 csv generical e historical esports data
+
+
+Contenuto file genericalesportsdata.csv:
+    Game =Nome del gioco
+    ReleaseDate =Anno di uscita del gioco
+    Genre =Tipo di gioco
+    TotalEarnings =Totale soldi vinti in tutti i tornei sia online che in presenza
+    OfflineEarnings =Soldi vinti solo nei tornei in presenza 
+    PercentOffline =Percentuale dei guadagni che vengono da tornei in presenza
+    TotalPlayers =Num. totale di giocatori professionisti
+    TotalTournaments =Numero totale di tornei svolti
+
+Contenuo file historicalesportsdata.csv:
+    Date =Mese e anno del torneo
+    Game =Nome del gioco
+    Earnings =Soldi incassati in quel mese per quel gioco
+    Players =Numero di giocatori in quel mese
+    Tournaments =Numero di tornei in quel mese
+
+
